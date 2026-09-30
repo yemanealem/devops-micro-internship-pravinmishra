@@ -1,0 +1,9 @@
+Task 4 — DNS (about 97 words)
+DNS (Domain Name System) is the internet's phonebook. People remember names like 
+epicreads.com, but computers connect using IP addresses.
+DNS translates the domain name into the server's IP address so the browser knows 
+where to send the request. My friend should create an A record, 
+because an A record maps a domain name to an IPv4 address like 52.172.142.222.
+(AAAA is for IPv6, and CNAME points to another domain.) 
+DNS does not store ports, so port 3000 must be handled by a reverse proxy 
+such as Nginx forwarding port 80/443 to 3000, or by adding :3000 to the URL.

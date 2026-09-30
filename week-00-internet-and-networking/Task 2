@@ -1,0 +1,15 @@
+Task 2 — Internet and Networking (144 words)
+
+When a user in the USA types epicreads.com into their browser, 
+the request travels across the internet to the server in Finland.
+First, the browser finds the server's IP address, 
+the unique numeric address that identifies the machine on the internet,
+much like a postal address. The data is not sent as one piece. 
+Through packet switching, it is split into small packets, and each packet 
+may take a different route through routers and undersea cables before being
+reassembled at the destination. TCP/IP makes this reliable: 
+IP handles addressing and routing each packet, while TCP ensures 
+all packets arrive in the correct order and resends any that are lost. On top of this, the browser and 
+server communicate using HTTP, the language for requesting and delivering web pages.
+HTTPS adds encryption, so the user's login details and payment information stay private while crossing countries.
+
